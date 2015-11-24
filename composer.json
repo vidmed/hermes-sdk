@@ -1,0 +1,28 @@
+{
+  "name": "box2box/hermes-partner-sdk",
+  "description": "Integration with hermes partner API",
+  "keywords": [
+    "hermes",
+    "sdk",
+    "integration",
+    "REST"
+  ],
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "type": "extension",
+  "authors": [
+    {
+      "name": "vidmed",
+      "email": "mr.vidmed@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "box2box\\hermes_partner_sdk\\": ""
+    }
+  },
+  "require": {
+    "php": ">=5.3.0",
+    "guzzle/guzzle": "3.9.*@dev"
+  }
+}
